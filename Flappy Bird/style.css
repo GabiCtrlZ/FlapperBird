@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: green
+}
+#container{
+    border: 1px solid black;
+    height: 600px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 400px;
+    position: relative;
+    background-image: url("./flappy-bird-background-5.jpg")
+}
+#bird{
+    background-image: url("./263-2634362_a-great-place-to-find-pixel-art-templates-minecraft-flappy-bird-bird.png");
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    border-radius: 50%
+}
+.upper_pipe{
+    background-color: green;
+    height: 500px;
+    width: 60px;
+    position: absolute;
+}
+.lower_pipe{
+    background-color: green;
+    height: 500px;
+    width: 60px;
+    position: absolute;
+}
+#score{
+    font-size: 40px;
+    margin-left: 400px;
+}
+#high_score{
+    font-size: 40px;
+    margin-left: 400px;
+}
+/* border 570 px every side */
